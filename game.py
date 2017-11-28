@@ -16,6 +16,9 @@ weapon = input("Choose your weapon: ")
 
 def damage_dealt():
     number = random.randint(0, 20)
+    if number = 0
+        damage_taken()
+    else
     new_health = number - MONSTER_HEALTH
 
 def damage_taken():
@@ -23,5 +26,6 @@ def damage_taken():
     new_health = number - HERO_HEALTH
 
 print("""As you raise your""", weapon,""",you finally get a good look
-at the monster. It is none other than Ronald McDonald weilding a
-glowing broadsword made from french fries.""")
+at the monster. It is none other than Ronald McDonald: Guardian of all
+chairs and keys, weilding a glowing broadsword made from french fries.
+He gives you an evil grin as he charges towards you.""")
