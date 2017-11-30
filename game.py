@@ -20,9 +20,6 @@ def main():
     choice1 = float(input("\nDo you 1. attack? or do you 2. run? (Enter ony the number one or the number two. EX: 1 or 2 if you add anything else, the game will crash): "))
 
     if choice1 == 1:
-        print("""""")
-        
-    if choice1 == 1:
         retry = input("\nIt was a glorious battle but in the end, you were McMurdered by the evil clown. You have died. Try again? y/n:")
         if retry == 'y':
             main()
