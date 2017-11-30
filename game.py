@@ -13,15 +13,18 @@ def main():
 
     weapon = input("Choose your weapon: ")
 
-    choice1 float(input("""\nAs you raise your""", weapon,""",you finally get a good look
+    print("""\nAs you raise your""", weapon,""",you finally get a good look
     at the monster. It is none other than Ronald McDonald: Guardian of all
     chairs and keys, weilding a glowing broadsword made from french fries.
-    He gives you an evil grin as he charges towards you. Do you 1. attack or
-    do you 2. run?(Enter ony the number one or the number two. EX: 1 or 2
-    if you add anything else, the game will crash): """))
+    He gives you an evil grin as he charges towards you.""")
+    choice1 = float(input("Do you 1. attack? or do you 2. run? (Enter ony the number one or the number two. EX: 1 or 2 if you add anything else, the game will crash): "))
 
-    if choice1 = 1:
-        print("""...""")
+    if choice1 == 1:
+        retry = input("It was a glorious battle but in the end, you were McMurdered by the evil clown. You have died. Try again? y/n:")
+        if retry == 'y':
+            main()
+        else:
+            sys.exit()
     else:
         print("""...""")
 
