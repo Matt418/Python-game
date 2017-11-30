@@ -21,8 +21,19 @@ def main():
     if you add anything else, the game will crash): """))
 
     if choice1 = 1:
-        print("""...""")
+        print("""""")
     else:
-        print("""...""")
+        print("""You escape with your life, barely escaping the grasp of Ronald
+    Mcdonald. He shrieks as you steal the key and run for the door. After, you take the stairs beyond the dungeon,
+    and find a two doors. The door on the left is old and rotten, behind it the screams of lost souls, while the
+    other illuminates brightly, held together by golden hinges. Like a reasonable person, you pick the door on the left.
+    Once opened, you are shocked to see a treasure chest, filled with goblets, neckclaces,and jewels.""")
+        def treasure_reward():
+            amount = random.randint(0,150)
+            print('You got',amount,'of items of the stash!')
+
+
+        treasure_reward()
+            
 
 main()
