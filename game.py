@@ -17,8 +17,13 @@ def main():
     at the monster. It is none other than Ronald McDonald: Guardian of all
     chairs and keys, weilding a glowing broadsword made from french fries.
     He gives you an evil grin as he charges towards you.""")
+<<<<<<< HEAD
     choice1 = float(input("\nDo you 1. attack? or do you 2. run? (Enter ony the number one or the number two. EX: 1 or 2 if you add anything else,the game will crash): "))
         
+=======
+    choice1 = float(input("\nDo you 1. attack? or do you 2. run? (Enter ony the number one or the number two. EX: 1 or 2 if you add anything else, the game will crash): "))
+
+>>>>>>> 15698132ea0d2a92693da4c2dbf401e5b4d5acf2
     if choice1 == 1:
         retry = input("\nIt was a glorious battle but in the end, you were McMurdered by the evil clown. You have died. Try again? y/n:")
         if retry == 'y':
