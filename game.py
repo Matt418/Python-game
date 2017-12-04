@@ -17,23 +17,27 @@ def main():
     at the monster. It is none other than Ronald McDonald: Guardian of all
     chairs and keys, weilding a glowing broadsword made from french fries.
     He gives you an evil grin as he charges towards you.""")
-<<<<<<< HEAD
 
-=======
->>>>>>> 37d45cea41a8fb4ae145ea55787a22982a20cb60
 
     choice1 = float(input("\nDo you 1. attack? or do you 2. run? (Enter ony the number one or the number two. EX: 1 or 2 if you add anything else,the game will crash: "))
 
-<<<<<<< HEAD
+    choice2= float(input("""\n Do you 1.attempt to jump
+and open the gate, 2. or leave to another area of the castle?:\n""")
+            if choice2 == 1;
+
+                print("\n You jump over the pit, barely missing your footing to the other side. You crack open the gate with",weapon,"and finally escape the castle! Good job!")
+
+            else:
+                try_again = input("""\n you head into another room with several doors. However, it is not like any other room, as each door is a labyrith, taking you back to the
+same room each time. Eventually you become insane and an undying keeper of doors, forever enslaved to the rooms. Want to try again?y/n:""")
+                    if try_again== 'n':
+                           main()
+                    else:
+                        quit()
+        
 
 
-
-    choice1 = float(input("\nDo you 1. attack? or do you 2. run? (Enter ony the number one or the number two. EX: 1 or 2 if you add anything else,the game will crash): "))
-
-
-=======
->>>>>>> 37d45cea41a8fb4ae145ea55787a22982a20cb60
-    if choice1 == 1:
+     if choice1 == 1:
         retry = input("\nIt was a glorious battle but in the end, you were McMurdered by the evil clown. You have died. Try again? y/n:")
         if retry == 'y':
             main()
@@ -49,39 +53,28 @@ def main():
         def treasure_reward():
             amount = random.randint(0,150)
             print('You got',amount,'of items of the stash!')
-<<<<<<< HEAD
 
-            keep_going = input('Do you stay in hopes of finding more treasure from the chests, or take your reward and leave the room? yes/no:')
-
-            if 'yes':
-                print('You leave the room, and come across a gate blocked by two knight statues. As you approach closer to the door,')
-                print(' their eyes glow a fiery red and pull their longswords out. Luckily, you still hold your',weapon,'and ready to fight.1. do you decide to stay and fight the statues,')
-                print('in hopes of finding what is behind the gate, 2. or escape?:')
-            else 'no':
-                print('Consumed by greed, you decide to stay and open all the chests,')
-                print('finding treasure that filled your hearts desire. However, the cost for staying turned you into a dragon,and hoarde the treasure for eternity!!!')
-                
-=======
-
->>>>>>> 37d45cea41a8fb4ae145ea55787a22982a20cb60
 
             keep_going = input('\nDo you stay in hopes of finding more treasure from the chests, or take your reward and leave the room? yes/no:\n')
 
             if 'yes':
-                print("""You leave the room, and come across a gate blocked by two
-knight statues. As you approach closer to the door, their eyes
-glow a fiery red and pull their longswords out. Luckily, you
-still hold your',weapon,'and ready to fight.1. do you decide to
-stay and fight the statues, in hopes of finding what is behind
-the gate, 2. or escape?:\n""")
+                    print("""You leave the room, and come across a gate. In front of it, there is a pit of snakes that reside a the bottom. do you 1.attempt to jump
+and open the gate, 2. or leave to another area of the castle?:\n""")
             else:
                 print("""Consumed by greed, you decide to stay and open all the chests,
 finding treasure that filled your hearts desire. However, the cost for staying turned you
 into a dragon,and hoarde the treasure for eternity!!!\n""")
-                    
+
+                             
+                
+         treasure_reward()
+
+    
+
+    
 
 
-        treasure_reward()
+        
             
 
 main()
