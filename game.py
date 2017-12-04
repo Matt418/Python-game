@@ -50,6 +50,14 @@ same room each time. Eventually you become insane and an undying keeper of doors
     other illuminates brightly, held together by golden hinges. Like a reasonable person, you pick the door on the left. The room is filled with chest, all
     latched locked by iron locks. To open one of the chests, you use your""", weapon ,""" and shocked to find treasure  in the chest, filled with goblets,
     neckclaces,and jewels.""")
+<<<<<<< HEAD
+def treasure_reward():
+    amount = random.randint(0,150)
+    print('You got',amount,'of items of the stash!')
+    keep_going = input('\nDo you stay in hopes of finding more treasure from the chests, or take your reward and leave the room? yes/no:\n')
+    if 'yes':
+        print("""You leave the room, and come across a gate blocked by two
+=======
         def treasure_reward():
             amount = random.randint(0,150)
             print('You got',amount,'of items of the stash!')
@@ -58,10 +66,22 @@ same room each time. Eventually you become insane and an undying keeper of doors
             keep_going = input('\nDo you stay in hopes of finding more treasure from the chests, or take your reward and leave the room? yes/no:\n')
 
             if 'yes':
+<<<<<<< HEAD
                     print("""You leave the room, and come across a gate. In front of it, there is a pit of snakes that reside a the bottom. do you 1.attempt to jump
 and open the gate, 2. or leave to another area of the castle?:\n""")
             else:
                 print("""Consumed by greed, you decide to stay and open all the chests,
+=======
+                print("""You leave the room, and come across a gate blocked by two
+>>>>>>> 30d1fe747aa3f4e3885873cdb2980bcad987ffb5
+knight statues. As you approach closer to the door, their eyes
+glow a fiery red and pull their longswords out. Luckily, you
+still hold your',weapon,'and ready to fight.1. do you decide to
+stay and fight the statues, in hopes of finding what is behind
+the gate, 2. or escape?:\n""")
+    else:
+        print("""Consumed by greed, you decide to stay and open all the chests,
+>>>>>>> 66edecd6e64fdba323c5888c209cdf0835e3b5c3
 finding treasure that filled your hearts desire. However, the cost for staying turned you
 into a dragon,and hoarde the treasure for eternity!!!\n""")
 
