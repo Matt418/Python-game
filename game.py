@@ -33,22 +33,19 @@ def main():
     other illuminates brightly, held together by golden hinges. Like a reasonable person, you pick the door on the left. The room is filled with chest, all
     latched locked by iron locks. To open one of the chests, you use your""", weapon ,""" and shocked to find treasure  in the chest, filled with goblets,
     neckclaces,and jewels.""")
-        def treasure_reward():
-            amount = random.randint(0,150)
-            print('You got',amount,'of items of the stash!')
-
-
-            keep_going = input('\nDo you stay in hopes of finding more treasure from the chests, or take your reward and leave the room? yes/no:\n')
-
-            if 'yes':
-                print("""You leave the room, and come across a gate blocked by two
+def treasure_reward():
+    amount = random.randint(0,150)
+    print('You got',amount,'of items of the stash!')
+    keep_going = input('\nDo you stay in hopes of finding more treasure from the chests, or take your reward and leave the room? yes/no:\n')
+    if 'yes':
+        print("""You leave the room, and come across a gate blocked by two
 knight statues. As you approach closer to the door, their eyes
 glow a fiery red and pull their longswords out. Luckily, you
 still hold your',weapon,'and ready to fight.1. do you decide to
 stay and fight the statues, in hopes of finding what is behind
 the gate, 2. or escape?:\n""")
-            else:
-                print("""Consumed by greed, you decide to stay and open all the chests,
+    else:
+        print("""Consumed by greed, you decide to stay and open all the chests,
 finding treasure that filled your hearts desire. However, the cost for staying turned you
 into a dragon,and hoarde the treasure for eternity!!!\n""")
                     
